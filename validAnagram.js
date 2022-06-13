@@ -53,3 +53,13 @@ function validAnagram(first, second){
   return true;
     
   }
+
+debugger;
+validAnagram('', '') // true
+validAnagram('aaz', 'zza') // false
+validAnagram('anagram', 'nagaram') // true
+validAnagram("rat","car") // false) // false
+validAnagram('awesome', 'awesom') // false
+validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana') // false
+validAnagram('qwerty', 'qeywrt') // true
+validAnagram('texttwisttime', 'timetwisttext') // true
