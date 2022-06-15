@@ -10,7 +10,7 @@ const sumRange = (arr, num) =>{
 
     tempSum = maxSum;
     for(let i = num; i <arr.length; i++){
-        //[1,2,3,4,5,6,7,8]
+        //[1,2,3,4,5,6,7,8],3
         //처음 maxSum이 1,2,3 즉 6이라면
         // 한칸씩 뒤로 밀어
         // [2,3,4] 다음의 합 8이 나온다.
