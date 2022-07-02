@@ -26,7 +26,6 @@ const isPalindrome = (word) => {
     // [1,1]이라 같으므로 true를 반환해야 하지만,
     // 아래 함수가 동작하면 빈 배열이 나와 false를 반환하는 문제가 발생하게 된다.!
     if(word[0] === word.slice(-1)) return isPalindrome(word.slice(1,-1))
-
     return false;
 
 }
